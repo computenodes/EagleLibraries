@@ -3056,6 +3056,25 @@ package type OT</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MCR12DSNT4G" prefix="Q">
+<gates>
+<gate name="G$1" symbol="THYRISTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="OC_ONECALL" value="2535530"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
